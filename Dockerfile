@@ -1,9 +1,83 @@
-FROM debian
+FROM debian:sid
 RUN apt-get update && apt-get install -y \
   git \
-  ntpd \
+  ntpdate \
   ca-certificates \
   binfmt-support \
-  gcc-arm-linux-gnueabihfa \
+  gcc-arm-linux-gnueabihf \
   gcc-arm-linux-gnueabi \
-  gcc-aarch64-linux-gnu
+  gcc-aarch64-linux-gnu \
+  dialog \
+  wget \
+  lsb-release \
+  btrfs-progs \
+  cpp \
+  cpp-5 \
+  dpkg-dev \
+  g++ \
+  g++-5 \
+  gcc \
+  gcc-5 \
+  libasan2 \
+  libatomic1 \
+  libc-dev-bin \
+  libc6-dev \
+  libcilkrts5 \
+  libdpkg-perl \
+  libevent-2.0-5 \
+  libf2fs0 \
+  libgcc-5-dev \
+  libglib2.0-0 \
+  libgomp1 \
+  libitm1 \
+  liblsan0 \
+  liblzo2-2 \
+  libmpx0 \
+  libnewt0.52 \
+  libnfsidmap2 \
+  libparted2 \
+  libquadmath0 \
+  libsigsegv2 \
+  libslang2 \
+  libstdc++-5-dev \
+  libtinfo-dev \
+  libtirpc1 \
+  libtsan0 \
+  libubsan0 \
+  libusb-1.0-0 \
+  libwrap0 \
+  linux-libc-dev \
+  make \
+  nfs-common \
+  p7zip \
+  rpcbind \
+  ucf \
+  apt-cacher-ng \
+  bc \
+  btrfs-tools \
+  ccache \
+  debian-keyring \
+  debootstrap \
+  device-tree-compiler \
+  dos2unix \
+  dosfstools \
+  f2fs-tools \
+  gawk \
+  libncurses5-dev \
+  libssl-dev \
+  libusb-1.0-0-dev \
+  lzop \
+  ncurses-term \
+  nfs-kernel-server \
+  p7zip-full\
+  parted \
+  pigz \
+  pkg-config \
+  pv \
+  qemu-user-static \
+  u-boot-tools \
+  unzip \
+  uuid-dev \
+  whiptail \
+  zip \
+  zlib1g-dev
