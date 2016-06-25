@@ -80,4 +80,8 @@ RUN apt-get update && apt-get install -y \
   uuid-dev \
   whiptail \
   zip \
-  zlib1g-dev
+  zlib1g-dev \
+  libasound2 \
+  libasound2-data \
+  libgcj-common \
+  libgcj16
