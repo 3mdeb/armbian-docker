@@ -1,5 +1,6 @@
 FROM debian:sid
 RUN apt-get update && apt-get install -y \
+  apt-utils \
   git \
   ntpdate \
   ca-certificates \
@@ -84,4 +85,5 @@ RUN apt-get update && apt-get install -y \
   libasound2 \
   libasound2-data \
   libgcj-common \
-  libgcj16
+  libgcj16 \
+  xpdf-utils
